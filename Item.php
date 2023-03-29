@@ -4,6 +4,7 @@ abstract class Item {//parent class
     private $code;
     private $description;
     private $price;
+    private $fuckyou;
     
     public function __construct($code,$description,$price){
         $this ->code = $code;
